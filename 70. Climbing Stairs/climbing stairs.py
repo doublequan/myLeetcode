@@ -13,6 +13,6 @@ class Solution(object):
             count += math.factorial(i+j) / (math.factorial(i) * math.factorial(j))
         return count
 
-print Solution.climbStairs(Solution(), 5)
+print Solution.climbStairs(Solution(), 4)
 
 
