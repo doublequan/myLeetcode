@@ -17,7 +17,7 @@ class Solution(object):
             tmp = pre1
             pre1 = pre1 + pre2
             pre2 = tmp
- 
+
         return pre1
 
 
