@@ -13,7 +13,7 @@ class Solution(object):
         if len(nums) == 0:
             return 0
         res = nums[0]
-        i = 1 
+        i = 1
         while i < len(nums):
             res ^= nums[i]
             i += 1
