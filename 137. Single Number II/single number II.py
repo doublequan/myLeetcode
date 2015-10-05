@@ -19,6 +19,6 @@ class Solution(object):
             three = one & two
             one &= ~three
             two &= ~three
-        return one 
+        return one
 
 print Solution.singleNumber(Solution(), [1])
