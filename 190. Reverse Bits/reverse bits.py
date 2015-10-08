@@ -1,3 +1,4 @@
+
 """
     Reverse bits of a given 32 bits unsigned integer.
 
@@ -19,10 +20,10 @@ class Solution(object):
                 n |= (1 << (31 - i))
             elif n >> i & 1 == 0 and n >> (31 - i) & 1 == 1:
                 n |= (1 << i)
-                n &= ~(1 << (31 - i)) 
+                n &= ~(1 << (31 - i))
         return n
 
 
 
-print Solution.reverseBits(Solution(), 43261596)
-print 1 << 31, -1 << 1
+#print Solution.reverseBits(Solution(), 0b1)
+print bin(-0b1 + 0x100000000)
